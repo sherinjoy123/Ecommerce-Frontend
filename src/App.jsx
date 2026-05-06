@@ -9,7 +9,7 @@ import Navbar from './Pages/Navbar'
 import Footer from './Pages/Footer'
 import CartItems from './Pages/CartItems'
 import Signup from './Pages/Signup'
-import ProductDetails from './Pages/ProductDetails'
+import ProductDetails from './Pages/ProductDetails.jsx'
 import Wishlist from './Pages/Wishlist'
 
 const App = () => {
