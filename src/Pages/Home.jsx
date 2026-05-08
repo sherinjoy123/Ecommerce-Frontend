@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import About from "./About";
-import { products } from "../data/products"; // ✅ CORRECT PLACE
+import { products } from "../data/products";
 
 const Home = () => {
   const navigate = useNavigate();
