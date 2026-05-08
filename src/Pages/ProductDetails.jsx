@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useCart } from "../context/CartContext";
-import { products } from "../data/Products";
+import { products } from "../data/products";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -55,3 +55,4 @@ const ProductDetails = () => {
 };
 
 export default ProductDetails;
+  
